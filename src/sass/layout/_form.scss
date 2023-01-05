@@ -1,0 +1,229 @@
+@media screen and (min-width: 320px) {
+  .solaris-registr {
+    min-height: 868px;
+    background: url(../src/img/bg/congrat/bg-form.jpg) center (center / cover) no-repeat;
+    padding: 112px 0 60px 0;
+  }
+  .solaris-registr__title {
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 14px;
+    color: #ffffff;
+    text-align: s;
+    line-height: 57px;
+  }
+  .solaris-registr__subtitle {
+    display: none;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: start;
+    color: #ffffff;
+  }
+  .solaris-registr__text-after-form {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: start;
+    color: #ffffff;
+  }
+  .solaris-form {
+  width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 28px 42px 20px 42px;
+    margin-bottom: 10px;
+  }
+  .solaris-label {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .form-control {
+      padding: 0.2rem 0.75rem;
+    margin: 17px 0;
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    color: $blackColor;
+    border: none;
+  }
+  .space {
+    margin-bottom: 24px;
+  }
+  .solaris-btn {
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #007dc1;
+  }
+  .wrapper-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .solaris-registr {
+    min-height: 560px;
+    background: url(../src/img/bg/congrat/bg-form.jpg) center (center / cover) no-repeat;
+    padding: 28px 50;
+  }
+  .solaris-registr__title {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 34px;
+    color: #ffffff;
+    text-align: start;
+  }
+  .solaris-registr__subtitle {
+    display: none;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: start;
+    color: #ffffff;
+  }
+  .solaris-registr__text-after-form {
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 50px;
+    text-align: start;
+    color: #ffffff;
+  }
+  .solaris-form {
+  width: 76%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 25px 59px;
+    margin-bottom: 20px;
+  }
+  .solaris-label {
+    display: block;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .form-control {
+    padding: 0.375rem 0.75rem;
+    margin: 17px 0;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    color: $blackColor;
+    border: none;
+  }
+  .space {
+    margin-bottom: 45px;
+  }
+  .solaris-btn {
+    display: block;
+    margin: 0 auto;
+    width: 177px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #007dc1;
+  }
+  .wrapper-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .solaris-registr {
+    min-height: 560px;
+    background: url(../src/img/bg/congrat/bg-form.jpg) center (center / cover) no-repeat;
+    padding: 28px 0;
+  }
+  .solaris-registr__title {
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 34px;
+    color: #ffffff;
+    text-align: start;
+  }
+  .solaris-registr__subtitle {
+    display: block;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: start;
+    color: #ffffff;
+  }
+  .solaris-registr__text-after-form {
+    display: none;
+  }
+  .solaris-form {
+    min-width: 540px;
+    min-height: 504px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 25px 59px;
+  }
+  .solaris-label {
+    display: block;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .form-control {
+    padding: 0.375rem 0.75rem;
+    margin: 17px 0;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    color: $blackColor;
+    border: none;
+  }
+  .space {
+    margin-bottom: 29px;
+  }
+  .solaris-btn {
+    display: block;
+    margin: 0 auto;
+    width: 177px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #007dc1;
+  }
+  .wrapper-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,256 @@
+@media screen and (min-width: 320px) {
+  .solaris-values__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .solaris-values__wrappage {
+    display: flex;
+    justify-content: center;
+  }
+
+  .solaris-values {
+    min-height: 1002px;
+    background: url(../src/img/bg/values/bg-values.jpg) center (center / cover) no-repeat;
+    padding: 48px 0 250px 0;
+    &__wrapp {
+      margin-bottom: 12px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 34px;
+      text-align: center;
+      color: #b93309;
+      margin-bottom: 26px;
+    }
+    &__img {
+      margin-bottom: 22px;
+    }
+    &__svg {
+      width: 173px;
+      height: 162px;
+    }
+    &__text {
+      font-weight: 500;
+      font-size: 15px;
+      margin: 0 auto;
+      text-align: center;
+      color: $subTextColor;
+    }
+    &__wrappage {
+      padding: 23px 0 32px 0;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      min-height: 252px;
+      width: 83%;
+      background: rgba(0, 125, 193, 0.7);
+    }
+    &__subwrapp {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 15px;
+      border-right: 2px solid white;
+      &:last-child {
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+    &__info {
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
+    &__info-text {
+      font-weight: 800;
+      font-size: 40px;
+      text-align: center;
+      color: $textColor;
+    }
+    &__info-subtext {
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: $blackColor;
+    }
+  }
+  .space-sub {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .solaris-values__wrappage {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .solaris-values__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .solaris-values__wrappage {
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .solaris-values {
+    min-height: 980px;
+    background: url(../src/img/bg/values/bg-values.jpg) center (center / cover) no-repeat;
+    padding: 149px 0 119px 0;
+    &__wrapp {
+      margin-right: 15px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 55px;
+      text-align: center;
+      color: #b93309;
+      margin-bottom: 97px;
+    }
+    &__img {
+      margin-bottom: 38px;
+    }
+    &__text {
+      width: 173px;
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: $subTextColor;
+      margin-bottom: 64px;
+    }
+    &__wrappage {
+      padding: 23px 0 32px 0;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      min-height: 252px;
+      width: 83%;
+      background: rgba(0, 125, 193, 0.7);
+    }
+    &__subwrapp {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 15px;
+      border-right: 2px solid white;
+      &:last-child {
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+    &__info {
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
+    &__info-text {
+      font-weight: 800;
+      font-size: 40px;
+      text-align: center;
+      color: $textColor;
+    }
+    &__info-subtext {
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: $blackColor;
+    }
+  }
+  .space-sub {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .solaris-values__wrappage {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .solaris-values__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .solaris-values__wrappage {
+    display: flex;
+    justify-content: center;
+  }
+  .solaris-values {
+    min-height: 980px;
+    background: url(../src/img/bg/values/bg-values.jpg) center (center / cover) no-repeat;
+    padding: 149px 0 119px 0;
+    &__wrapp {
+      margin-right: 15px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 55px;
+      text-align: center;
+      color: #b93309;
+      margin-bottom: 97px;
+    }
+    &__img {
+      margin-bottom: 38px;
+    }
+    &__svg {
+      width: 260px;
+      height: auto;
+    }
+    &__text {
+      margin: 0 auto;
+      width: 100%;
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: $subTextColor;
+      margin-bottom: 64px;
+    }
+    &__wrappage {
+      padding: 23px 0 32px 0;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      min-height: 252px;
+      width: 83%;
+      background: rgba(0, 125, 193, 0.7);
+    }
+    &__subwrapp {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 15px;
+      border-right: 2px solid white;
+      &:last-child {
+        padding-right: 0;
+        border-right: none;
+      }
+    }
+    &__info {
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
+    &__info-text {
+      font-weight: 800;
+      font-size: 40px;
+      text-align: center;
+      color: $textColor;
+    }
+    &__info-subtext {
+      font-weight: 500;
+      font-size: 22px;
+      text-align: center;
+      color: $blackColor;
+    }
+  }
+  .space-sub {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}

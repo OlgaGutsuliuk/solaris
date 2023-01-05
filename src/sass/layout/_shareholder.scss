@@ -1,0 +1,266 @@
+@media screen and (min-width: 320px) {
+  .shareholder {
+    display: none;
+  }
+  .share-slider {
+    max-height: 392px;
+    background: #f5f5f5;
+    padding: 30px 0 37px 0;
+  }
+  .share-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .share-card,
+  .two {
+    border: 1px solid black;
+  }
+  .share-card:last-child {
+    margin-right: 0;
+  }
+  .share__title {
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    color: $subTextColor;
+    margin-bottom: 10px;
+  }
+  .share__small {
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    color: $blackColor;
+    margin-bottom: 10px;
+  }
+  .share__subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: $blackColor;
+  }
+  .share__month {
+    font-weight: 500;
+    font-size: 12px;
+    color: $blackColor;
+    text-align: center;
+  }
+  .share__price {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 53px;
+    text-align: center;
+    color: $subTextColor;
+  }
+  .share__btn {
+    display: block;
+    margin: 0 auto;
+    width: 86px;
+    height: 24px;
+    background: $blueColor;
+    border: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .share__first-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 56px;
+    background: $blueColor;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .share__payment {
+    padding: 23px 0 27px 0;
+    width: 179px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .share-slider {
+    display: none;
+  }
+  .shareholder {
+    display: block;
+    min-height: 367px;
+    background: #f5f5f5;
+    padding: 86px 0 80px 0;
+  }
+  .shareholder-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .shareholder-card {
+    padding: 58px 0 60px 0;
+    width: 100%;
+    margin-right: 30px;
+    border: 1px solid black;
+  }
+  .shareholder-card:last-child {
+    margin-right: 0;
+  }
+  .shareholder__title {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: $subTextColor;
+    margin-bottom: 18px;
+  }
+  .shareholder__small {
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    color: $blackColor;
+    margin-bottom: 10px;
+  }
+  .shareholder__subtitle {
+    font-size: 25px;
+    text-align: center;
+    color: $blackColor;
+    margin-bottom: 8px;
+  }
+  .shareholder__month {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: $blackColor;
+    text-align: center;
+  }
+  .shareholder__price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: $subTextColor;
+    margin-bottom: 30px;
+  }
+  .shareholder__btn {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    height: 52px;
+    background: #007dc1;
+    border: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .shareholder__first-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 77px;
+    background: $blueColor;
+    font-weight: 800;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .payment {
+    padding: 20px 0 60px 0;
+    width: 179px;
+    margin: 0 auto;
+  }
+  .two {
+    padding: 0;
+    box-shadow: 6px 6px #f5f5f5, 9px 9px #d9d9d9;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .shareholder {
+    min-height: 1067px;
+    background: #f5f5f5;
+    padding: 86px 0 80px 0;
+  }
+  .shareholder-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .shareholder-card,
+  .two {
+    padding: 58px 0 60px 0;
+    width: 100%;
+    margin-right: 60px;
+    min-height: 800px;
+    border: 1px solid black;
+  }
+  .shareholder-card:last-child {
+    margin-right: 0;
+  }
+  .shareholder__title {
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    color: $subTextColor;
+    margin-bottom: 24px;
+  }
+  .shareholder__small {
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    color: $blackColor;
+    margin-bottom: 10px;
+  }
+  .shareholder__subtitle {
+    font-size: 48px;
+    text-align: center;
+    color: $blackColor;
+    margin-bottom: 10px;
+  }
+  .shareholder__month {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 85px;
+    color: $blackColor;
+    text-align: center;
+  }
+  .shareholder__price {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: center;
+    color: $subTextColor;
+    margin-bottom: 60px;
+  }
+  .shareholder__btn {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 67px;
+    background: $blueColor;
+    border: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    color: #ffffff;
+  }
+  .shareholder__first-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 154px;
+    background: $blueColor;
+    font-weight: 800;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .payment {
+    padding: 20px 0 60px 0;
+    width: 100%;
+  }
+  .two {
+    padding: 0;
+    box-shadow: 6px 6px #f5f5f5, 9px 9px #d9d9d9;
+  }
+  .share-slider {
+    display: none;
+  }
+}
